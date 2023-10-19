@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Opdracht_6.4</title>
+</head>
+<body>
+
+    <div class="som1">
+        <h1>Som 1</h1>
+        <h2>20 + 400 =</h2>
+        <h2 id="som1"></h2>
+        <button type="button" onclick="calculate()">Calculate</button>
+    </div>
+
+    <br>
+
+    <div class="som2">
+        <h1>Som 2</h1>
+        <form>
+            <label for="Number">Voer een getal in en het wordt vermenigvuldigd met vijf</label> 
+            <br><br>
+            <input type="text" id="Number" name="Number" placeholder="nummer"> 
+            <br><br>
+            <input type="button" onClick="multiplyByFive()" Value="Calculate" />
+        </form>
+            <p>The Result is : <br>
+            <p id = "result"></p>
+    </div>
+
+    <br>
+
+    <div class="som3">
+        <h1>Som 3</h1>
+        <form>
+            <label for="Minutes">voer seconden in en het wordt omgezet in minuten</label> 
+            <br><br>
+            <input type="text" id="Minutes" name="Minutes" placeholder="Minutes"> 
+            <br><br>
+            <input type="button" onClick="calculateMinutes()" Value="Calculate" />
+        </form>
+            <p>The Result is : <br>
+            <p id = "result1"></p>
+    </div>5
+
+    <script src="javascript.js"></script>
+</body>
+</html>

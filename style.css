@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(29, 29, 29);
+    color: lime;
+    margin: 0;
+    padding: 0;
+}
+
+.som1{
+    width: 19vw;
+    height: 36vh;
+    background-color: lightseagreen;
+    border: 10px lime solid;
+    text-align: center;
+    margin-left: 39vw;
+}
+
+.som1:hover{
+    background-color: rgb(29, 160, 154);
+}
+
+.som2{
+    width: 19vw;
+    height: 36vh;
+    background-color: lightseagreen;
+    border: 10px lime solid;
+    text-align: center;
+    margin-left: 39vw;
+}
+
+.som2:hover{
+    background-color: rgb(29, 160, 154);
+}
+
+.som3{
+    width: 19vw;
+    height: 36vh;
+    background-color: lightseagreen;
+    border: 10px lime solid;
+    text-align: center;
+    margin-left: 39vw;
+}
+
+.som3:hover{
+    background-color: rgb(29, 160, 154);
+}
